@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
 import { useParams } from "react-router-dom";
-import logo from "./assets/images/novatalk.png"; // Apna logo replace karein
+import logo from "./assets/images/novatalk.png"; 
 
 export default function VideoCall() {
   const { roomid } = useParams();
